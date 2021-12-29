@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
-    "deploy": "surge -p dist/ -d https://nuxtstatic.surge.sh"
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "nuxt generate": "nuxt generate"
   },
   "license": "MIT",
   "dependencies": {
